@@ -276,6 +276,18 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-15.6.1.tgz#32d43390d5c62c5b6ec486a9bc9c59544de39a08"
   integrity sha512-7EIraBEyRHEe7CH+Fm1XvgqU6uwZN8Q7jppJGcqjROMT29qhAuuOxYB1uEY5UMYQKEmA5D+5tBnhdaPXSsLONA==
 
+"@use-gesture/core@10.2.9":
+  version "10.2.9"
+  resolved "https://registry.yarnpkg.com/@use-gesture/core/-/core-10.2.9.tgz#51eb2a12747c750dd0ac60af48fb7653382cf58a"
+  integrity sha512-MsPUCWZ6BSir8XqSrfQCyrFuBz405YI2D0hfZ7TXX/hhF0kekN+noPhHjg7m85vMyCYf92fjt3J5AbjoGV4eMw==
+
+"@use-gesture/react@^10.2.9":
+  version "10.2.9"
+  resolved "https://registry.yarnpkg.com/@use-gesture/react/-/react-10.2.9.tgz#76b98ba980cf2e5b688cdae9b8fb372b454c38c9"
+  integrity sha512-E5BynF6ADi3mRqRiOOSDPpefifZskE03HYHvR+Z8ngWvxf4WztzPVfyCEx2l4I0kpe9gWdf7i4fciEyt/p9bIw==
+  dependencies:
+    "@use-gesture/core" "10.2.9"
+
 anser@1.4.9:
   version "1.4.9"
   resolved "https://registry.yarnpkg.com/anser/-/anser-1.4.9.tgz#1f85423a5dcf8da4631a341665ff675b96845760"
@@ -1696,11 +1708,6 @@ react-refresh@0.8.3:
 "react-spring-lightbox@link:..":
   version "0.0.0"
   uid ""
-
-react-use-gesture@9.0.4:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/react-use-gesture/-/react-use-gesture-9.0.4.tgz#7e0428007df31b6d8daae37c2fb01e9f40283623"
-  integrity sha512-G0sbQY+HSm2gSVIlD+LE1unpVpG7YZRTr8TI72vo0Nu1lecJtvjbcY3ZLonEZLTtODJgLL6nBllMRXyy0bRSQA==
 
 "react@link:../node_modules/react":
   version "0.0.0"
